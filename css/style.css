@@ -1,0 +1,44 @@
+*{
+    font-size: 18px;
+}
+:root{
+    --cor-primaria: #9370DB;
+    --cor-primaria-clara: #7B68EE;
+    --cor-primaria-escura: #6959CD;
+    --cor-secundaria: #008080;
+    --cor-secundaria-clara: #20B2AA;
+    --cor-neutra-clara: #EEEEEE;
+    --cor-neutra-escura: #282831;
+}
+body{
+    background-color: var(--cor-primaria-clara);
+    color: var(--cor-neutra-clara);
+}
+h1, h2{
+    text-align: center;
+}
+main{
+    background-color: var(--cor-primaria);
+    padding: 32px;
+    border-radius: 8px;
+}
+main > button{
+    
+    float: left;
+}
+.btn-padrao{
+    background-color: var(--cor-neutra-escura);
+    color: var(--cor-neutra-clara);
+    font-weight: bolder;
+    padding: 0.5em;
+    border-radius: 8px;
+}
+table{
+    width: 100%;
+}
+.modal-content{
+      background-color: var(--cor-primaria-clara);
+}
+.modal-header{
+        background-color: var(--cor-primaria-escura);
+}
